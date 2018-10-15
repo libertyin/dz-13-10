@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+
+    max-width: 100%;
+}
+
+h1 {
+
+    font-family: Arial, serif;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+a {
+    display: block;
+
+}
+
+/* Grid */
+
+.ba-container {
+
+    width: 1200px;
+    margin: 50px auto;
+    
+}
+
+.ba-raw {
+
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.raw {
+
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.raw:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.ba-raw-1-2 {
+
+    width: 50%;
+}
+
+.ba-raw-1-3 {
+
+    width: 33.33%;
+}
+
+.ba-raw-1-6 {
+
+    width: 16.66%;
+}
+
+/* End Grid */
